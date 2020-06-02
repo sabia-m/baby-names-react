@@ -32,3 +32,15 @@ body {
 #m {
   background-color: plum;
 }
+
+.search-bar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.search {
+  margin: 10px;
+  font-size: 16px;
+  width: 40%;
+}
