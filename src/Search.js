@@ -10,10 +10,13 @@ function Search(){
   }
 
   return (
+    <div className="search-names">
+    <h1 className="heading">Baby Names</h1>
     <div className="search-bar">
-      
       <input className="search" type="search" placeholder="Search Names Here"onChange={e => FilteredNames(e.target.value)}>
       </input>
+      </div>
+      
       <NameFilter nameInfo={search}/>
     </div>
   );
